@@ -10,9 +10,11 @@
     box-sizing: border-box;
 }
 
+/* ELEMENTO BASE DO BLOCO DE CODIGO HTML*/
 body{
     background: var(--preta);
     font-family: "Times New Roman", Times, Serif, serif;
+    color: white;
 }
 
 header .container{
@@ -36,4 +38,13 @@ header nav a{
 
 header nav a:hover{
     color: #fff;
+}
+
+/* ELEMENTO FILME PRINCIPAL*/
+
+.filme-principal{
+    font-size: 16px;
+    height: 400px;
+    background-size: cover;
+
 }
